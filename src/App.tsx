@@ -1,7 +1,11 @@
 import { GlobalStyle } from "./styles/global";
+import { Header } from "./components/Header";
 
-export default function App() {
+export function App() {
   return (
-    <GlobalStyle />
+    <>
+      <GlobalStyle />
+      <Header />
+    </>
   );
 }
